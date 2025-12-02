@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Courier Management</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <h1 style="color: rgba(255, 250, 244, 0.918);">Courier Management</h1> 
+
+    <div id="courier-form"> 
+        <h2>Add Courier</h2> 
+        <input type="text" id="courier-id" placeholder="Courier ID"> 
+        <input type="text" id="courier-name" placeholder="Courier Name"> 
+        <button onclick="addCourier()">Add Courier</button> 
+    </div> 
+
+    <div class="courier"> 
+        <img src="pngegg.png" alt="Courier 1"> 
+        <h2>Courier 1</h2> 
+        <p><strong>ID:</strong> C001</p> 
+        <p><strong>Status:</strong> In Transit</p> 
+        <p><strong>Tracking Number:</strong> TRK12345</p> 
+        <button onclick="markCompleted()">Mark as Completed</button> 
+        <button onclick="deleteCourier()">Delete Courier</button> 
+    </div> 
+
+    <div class="courier"> 
+        <img src="iphone.png" alt="Courier 1"> 
+        <h2>Courier 1</h2> 
+        <p><strong>ID:</strong> C001</p> 
+        <p><strong>Status:</strong> In Transit</p> 
+        <p><strong>Tracking Number:</strong> TRK12345</p> 
+        <button onclick="markCompleted()">Mark as Completed</button> 
+        <button onclick="deleteCourier()">Delete Courier</button> 
+    </div> 
+
+    <div id="courier"></div> 
+    <script src="script.js"></script> 
+</body> 
+</html>
